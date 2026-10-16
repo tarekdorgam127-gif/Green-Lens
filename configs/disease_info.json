@@ -1,0 +1,844 @@
+{
+  "_meta": {
+    "en": "GreenLens gives a preliminary AI-based classification from a leaf photo. It is not a confirmed diagnosis. Confirm with an agricultural extension officer or plant pathologist, and follow local pesticide regulations and label instructions.",
+    "ar": "يقدّم GreenLens تصنيفًا أوليًا بالذكاء الاصطناعي من صورة الورقة وليس تشخيصًا مؤكدًا. يُرجى التأكد من مرشد زراعي أو أخصائي أمراض نبات، والالتزام بلوائح المبيدات وتعليمات الملصق المحلية."
+  },
+  "pepper_bacterial_spot": {
+    "plant": {
+      "en": "Pepper",
+      "ar": "فلفل"
+    },
+    "disease": {
+      "en": "Bacterial spot",
+      "ar": "التبقع البكتيري"
+    },
+    "healthy": false,
+    "severity": "high",
+    "cause": {
+      "en": "Xanthomonas bacteria",
+      "ar": "بكتيريا الزانثوموناس"
+    },
+    "description": {
+      "en": "A bacterial disease that spreads by splashing water, infected seed and tools, and thrives in warm, wet weather.",
+      "ar": "مرض بكتيري ينتشر بالرذاذ والبذور والأدوات الملوثة، ويزدهر في الطقس الدافئ الرطب."
+    },
+    "symptoms": {
+      "en": [
+        "Small, dark, water-soaked spots on leaves that turn brown, often with a yellow halo",
+        "Leaves yellow and drop",
+        "Rough, scabby spots on fruit"
+      ],
+      "ar": [
+        "بقع صغيرة داكنة مائية على الأوراق تتحول للبني وغالبًا بهالة صفراء",
+        "اصفرار الأوراق وتساقطها",
+        "بقع خشنة جربّة على الثمار"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove and destroy badly infected plants and leaves",
+        "Avoid touching or working in the field when plants are wet",
+        "Copper-based bactericides can slow spread if applied early per the local label (they do not cure infected tissue)"
+      ],
+      "ar": [
+        "أزل النباتات والأوراق شديدة الإصابة وأتلفها",
+        "تجنب لمس النباتات أو العمل بالحقل وهي مبللة",
+        "المبيدات النحاسية قد تبطئ الانتشار إذا استُخدمت مبكرًا حسب الملصق المحلي (ولا تشفي الأنسجة المصابة)"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Use certified disease-free seed and healthy transplants",
+        "Rotate with non-host crops for 2-3 years",
+        "Prefer drip irrigation over overhead sprinklers",
+        "Disinfect tools and remove crop debris after harvest"
+      ],
+      "ar": [
+        "استخدم بذورًا وشتلات معتمدة وخالية من المرض",
+        "اتبع دورة زراعية مع محاصيل غير عائلة لمدة 2-3 سنوات",
+        "فضّل الري بالتنقيط على الرش العلوي",
+        "عقّم الأدوات وأزل بقايا المحصول بعد الحصاد"
+      ]
+    }
+  },
+  "pepper_healthy": {
+    "plant": {
+      "en": "Pepper",
+      "ar": "فلفل"
+    },
+    "disease": {
+      "en": "Healthy",
+      "ar": "سليمة"
+    },
+    "healthy": true,
+    "severity": "none",
+    "cause": {
+      "en": "-",
+      "ar": "-"
+    },
+    "description": {
+      "en": "No disease signs detected on this leaf.",
+      "ar": "لا توجد علامات مرض ظاهرة على هذه الورقة."
+    },
+    "symptoms": {
+      "en": [
+        "Even green colour, no spots or curling"
+      ],
+      "ar": [
+        "لون أخضر متجانس بدون بقع أو التفاف"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "No treatment needed"
+      ],
+      "ar": [
+        "لا حاجة لعلاج"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Keep regular irrigation and balanced fertilisation",
+        "Scout the plants weekly (undersides of leaves too)",
+        "Remove fallen or damaged leaves"
+      ],
+      "ar": [
+        "حافظ على ري منتظم وتسميد متوازن",
+        "افحص النباتات أسبوعيًا (وأسفل الأوراق أيضًا)",
+        "أزل الأوراق الساقطة أو التالفة"
+      ]
+    }
+  },
+  "potato_early_blight": {
+    "plant": {
+      "en": "Potato",
+      "ar": "بطاطس"
+    },
+    "disease": {
+      "en": "Early blight",
+      "ar": "اللفحة المبكرة"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Alternaria solani (fungus)",
+      "ar": "فطر الألترناريا سولاني"
+    },
+    "description": {
+      "en": "A fungal disease that mostly attacks older leaves of stressed plants and spreads in warm weather with alternating wet and dry periods.",
+      "ar": "مرض فطري يهاجم غالبًا الأوراق الأكبر عمرًا في النباتات المجهدة، وينتشر في الجو الدافئ مع تبادل الرطوبة والجفاف."
+    },
+    "symptoms": {
+      "en": [
+        "Brown spots with concentric rings (target-like) on older leaves",
+        "Yellowing around the spots",
+        "Leaves dry out and fall early"
+      ],
+      "ar": [
+        "بقع بنية بحلقات متداخلة (تشبه الهدف) على الأوراق الأقدم",
+        "اصفرار حول البقع",
+        "جفاف الأوراق وسقوطها مبكرًا"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove heavily infected leaves",
+        "Keep plants well fed and irrigated (stress makes it worse)",
+        "Apply a registered protectant fungicide per the local label if spread continues"
+      ],
+      "ar": [
+        "أزل الأوراق شديدة الإصابة",
+        "حافظ على تغذية وري جيدين (الإجهاد يزيد المرض)",
+        "استخدم مبيدًا فطريًا واقيًا مسجلًا حسب الملصق المحلي إذا استمر الانتشار"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Rotate crops (2-3 years away from potato/tomato)",
+        "Use certified seed tubers and tolerant varieties",
+        "Avoid long leaf wetness (irrigate in the morning, no overhead at night)",
+        "Destroy crop debris after harvest"
+      ],
+      "ar": [
+        "اتبع دورة زراعية (2-3 سنوات بعيدًا عن البطاطس/الطماطم)",
+        "استخدم تقاوي معتمدة وأصنافًا متحملة",
+        "تجنب طول فترة بلل الأوراق (ري صباحي وليس رشًا ليلًا)",
+        "أتلف بقايا المحصول بعد الحصاد"
+      ]
+    }
+  },
+  "potato_late_blight": {
+    "plant": {
+      "en": "Potato",
+      "ar": "بطاطس"
+    },
+    "disease": {
+      "en": "Late blight",
+      "ar": "اللفحة المتأخرة"
+    },
+    "healthy": false,
+    "severity": "very_high",
+    "cause": {
+      "en": "Phytophthora infestans (oomycete)",
+      "ar": "الفيتوفثورا إنفستانس (فطر مائي)"
+    },
+    "description": {
+      "en": "A fast, destructive disease favoured by cool, humid weather. It can ruin a field within days.",
+      "ar": "مرض سريع ومدمر يفضّل الجو البارد الرطب، وقد يدمر الحقل خلال أيام."
+    },
+    "symptoms": {
+      "en": [
+        "Large, dark, water-soaked blotches on leaves and stems",
+        "White fuzzy growth under leaves in humid conditions",
+        "Tubers can rot"
+      ],
+      "ar": [
+        "بقع كبيرة داكنة مائية على الأوراق والسيقان",
+        "نمو أبيض زغبي أسفل الأوراق في الرطوبة",
+        "قد تتعفن الدرنات"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Act immediately: remove and destroy infected plants (do not compost)",
+        "Contact your local agricultural advisor for currently recommended fungicides and timing",
+        "Delay harvest until vines are dead to protect tubers"
+      ],
+      "ar": [
+        "تصرف فورًا: أزل النباتات المصابة وأتلفها (دون عمل سماد)",
+        "استشر المرشد الزراعي المحلي عن المبيدات الموصى بها حاليًا وتوقيتها",
+        "أجّل الحصاد حتى موت العروش لحماية الدرنات"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Plant certified, disease-free seed tubers",
+        "Destroy cull piles and volunteer potatoes",
+        "Hill soil well over tubers and avoid overhead irrigation",
+        "Monitor weather and disease alerts in your area"
+      ],
+      "ar": [
+        "ازرع تقاوي معتمدة وخالية من المرض",
+        "تخلص من أكوام الدرنات المستبعدة والنباتات المتطوعة",
+        "رَدّم التربة جيدًا حول الدرنات وتجنب الري بالرش",
+        "تابع الطقس وتنبيهات الأمراض في منطقتك"
+      ]
+    }
+  },
+  "potato_healthy": {
+    "plant": {
+      "en": "Potato",
+      "ar": "بطاطس"
+    },
+    "disease": {
+      "en": "Healthy",
+      "ar": "سليمة"
+    },
+    "healthy": true,
+    "severity": "none",
+    "cause": {
+      "en": "-",
+      "ar": "-"
+    },
+    "description": {
+      "en": "No disease signs detected on this leaf.",
+      "ar": "لا توجد علامات مرض ظاهرة على هذه الورقة."
+    },
+    "symptoms": {
+      "en": [
+        "Even green colour, no spots or lesions"
+      ],
+      "ar": [
+        "لون أخضر متجانس بدون بقع أو إصابات"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "No treatment needed"
+      ],
+      "ar": [
+        "لا حاجة لعلاج"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Keep regular irrigation and balanced fertilisation",
+        "Scout the plants weekly (undersides of leaves too)",
+        "Remove fallen or damaged leaves"
+      ],
+      "ar": [
+        "حافظ على ري منتظم وتسميد متوازن",
+        "افحص النباتات أسبوعيًا (وأسفل الأوراق أيضًا)",
+        "أزل الأوراق الساقطة أو التالفة"
+      ]
+    }
+  },
+  "tomato_bacterial_spot": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Bacterial spot",
+      "ar": "التبقع البكتيري"
+    },
+    "healthy": false,
+    "severity": "high",
+    "cause": {
+      "en": "Xanthomonas bacteria",
+      "ar": "بكتيريا الزانثوموناس"
+    },
+    "description": {
+      "en": "A bacterial disease spread by splashing water, seed and tools in warm, wet weather.",
+      "ar": "مرض بكتيري ينتشر بالرذاذ والبذور والأدوات في الطقس الدافئ الرطب."
+    },
+    "symptoms": {
+      "en": [
+        "Small, dark, greasy-looking spots on leaves, sometimes with a yellow halo",
+        "Spots may dry and tear, giving a ragged look",
+        "Raised scabby spots on fruit"
+      ],
+      "ar": [
+        "بقع صغيرة داكنة تبدو دهنية على الأوراق وأحيانًا بهالة صفراء",
+        "قد تجف البقع وتتمزق فتعطي مظهرًا ممزقًا",
+        "بقع جربّة بارزة على الثمار"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove infected leaves and badly affected plants",
+        "Avoid handling plants when wet",
+        "Copper-based sprays may reduce spread if applied early per the local label (they do not cure)"
+      ],
+      "ar": [
+        "أزل الأوراق والنباتات شديدة الإصابة",
+        "تجنب لمس النباتات وهي مبللة",
+        "الرش النحاسي قد يقلل الانتشار إذا استُخدم مبكرًا حسب الملصق المحلي (ولا يشفي)"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Use certified seed/transplants",
+        "Rotate crops for at least 2 years",
+        "Use drip irrigation and give plants space for airflow",
+        "Disinfect tools and stakes"
+      ],
+      "ar": [
+        "استخدم بذورًا وشتلات معتمدة",
+        "اتبع دورة زراعية لا تقل عن سنتين",
+        "استخدم الري بالتنقيط واترك مسافات للتهوية",
+        "عقّم الأدوات والأعواد الداعمة"
+      ]
+    }
+  },
+  "tomato_early_blight": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Early blight",
+      "ar": "اللفحة المبكرة"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Alternaria solani (fungus)",
+      "ar": "فطر الألترناريا سولاني"
+    },
+    "description": {
+      "en": "A common fungal disease that starts on lower, older leaves and moves upward, favoured by warm, humid weather and stressed plants.",
+      "ar": "مرض فطري شائع يبدأ بالأوراق السفلية الأقدم ثم يتحرك لأعلى، ويفضّل الجو الدافئ الرطب والنباتات المجهدة."
+    },
+    "symptoms": {
+      "en": [
+        "Brown spots with concentric rings (target-like)",
+        "Yellow tissue around spots; lower leaves die first",
+        "Dark, sunken lesions at the stem end of fruit"
+      ],
+      "ar": [
+        "بقع بنية بحلقات متداخلة (تشبه الهدف)",
+        "أنسجة صفراء حول البقع وموت الأوراق السفلية أولًا",
+        "آفات داكنة غائرة عند طرف الساق في الثمرة"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove infected lower leaves and dispose of them",
+        "Mulch and stake plants to keep leaves off the soil",
+        "Use a registered fungicide per the local label if it keeps spreading"
+      ],
+      "ar": [
+        "أزل الأوراق السفلية المصابة وتخلص منها",
+        "استخدم الغطاء العضوي وادعم النباتات لإبعاد الأوراق عن التربة",
+        "استخدم مبيدًا فطريًا مسجلًا حسب الملصق المحلي إذا استمر الانتشار"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Rotate crops (2-3 years)",
+        "Water at the base, in the morning",
+        "Keep plants well nourished and spaced for airflow",
+        "Clean up plant debris after the season"
+      ],
+      "ar": [
+        "اتبع دورة زراعية (2-3 سنوات)",
+        "اسقِ عند القاعدة وفي الصباح",
+        "حافظ على تغذية جيدة ومسافات للتهوية",
+        "نظّف بقايا النباتات بعد الموسم"
+      ]
+    }
+  },
+  "tomato_late_blight": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Late blight",
+      "ar": "اللفحة المتأخرة"
+    },
+    "healthy": false,
+    "severity": "very_high",
+    "cause": {
+      "en": "Phytophthora infestans (oomycete)",
+      "ar": "الفيتوفثورا إنفستانس (فطر مائي)"
+    },
+    "description": {
+      "en": "A fast-spreading, destructive disease favoured by cool, wet or humid conditions that can kill plants within days.",
+      "ar": "مرض سريع الانتشار ومدمر يفضّل الجو البارد الرطب وقد يقتل النباتات خلال أيام."
+    },
+    "symptoms": {
+      "en": [
+        "Large, greasy, gray-green to brown blotches on leaves",
+        "White fuzzy growth underneath in humid weather",
+        "Firm, brown, greasy-looking patches on fruit"
+      ],
+      "ar": [
+        "بقع كبيرة دهنية رمادية مخضرة إلى بنية على الأوراق",
+        "نمو أبيض زغبي أسفل الورقة في الرطوبة",
+        "بقع بنية صلبة تبدو دهنية على الثمار"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Act immediately: remove and destroy infected plants (do not compost)",
+        "Ask your local agricultural advisor about currently recommended fungicides and timing",
+        "Do not leave infected fruit or debris in the field"
+      ],
+      "ar": [
+        "تصرف فورًا: أزل النباتات المصابة وأتلفها (دون عمل سماد)",
+        "اسأل المرشد الزراعي المحلي عن المبيدات الموصى بها حاليًا وتوقيتها",
+        "لا تترك الثمار أو البقايا المصابة في الحقل"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Use resistant varieties where available",
+        "Avoid overhead irrigation and long leaf wetness",
+        "Space plants and prune for airflow",
+        "Monitor local disease alerts during cool, wet spells"
+      ],
+      "ar": [
+        "استخدم أصنافًا مقاومة إن توفرت",
+        "تجنب الري بالرش وطول بلل الأوراق",
+        "اترك مسافات وقلّم لتحسين التهوية",
+        "تابع تنبيهات الأمراض المحلية في فترات الجو البارد الرطب"
+      ]
+    }
+  },
+  "tomato_leaf_mold": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Leaf mold",
+      "ar": "عفن الأوراق"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Passalora fulva (fungus)",
+      "ar": "فطر باسالورا فولفا"
+    },
+    "description": {
+      "en": "A fungal disease typical of greenhouses and humid, poorly ventilated plantings.",
+      "ar": "مرض فطري شائع في البيوت المحمية والزراعات الرطبة ضعيفة التهوية."
+    },
+    "symptoms": {
+      "en": [
+        "Pale green to yellow spots on the upper leaf surface",
+        "Olive-green to gray velvety mold on the underside",
+        "Leaves curl, wither and drop"
+      ],
+      "ar": [
+        "بقع خضراء شاحبة إلى صفراء على السطح العلوي",
+        "عفن مخملي أخضر زيتوني إلى رمادي على السطح السفلي",
+        "التفاف الأوراق وذبولها وسقوطها"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Lower humidity and increase ventilation immediately",
+        "Remove infected leaves",
+        "Use a registered fungicide per the local label if needed"
+      ],
+      "ar": [
+        "اخفض الرطوبة وزد التهوية فورًا",
+        "أزل الأوراق المصابة",
+        "استخدم مبيدًا فطريًا مسجلًا حسب الملصق المحلي عند الحاجة"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Choose resistant varieties",
+        "Space and prune plants; keep leaves dry",
+        "Avoid overhead watering",
+        "Sanitise greenhouse structures between crops"
+      ],
+      "ar": [
+        "اختر أصنافًا مقاومة",
+        "باعد بين النباتات وقلّمها وأبقِ الأوراق جافة",
+        "تجنب الري العلوي",
+        "عقّم هياكل البيت المحمي بين المحاصيل"
+      ]
+    }
+  },
+  "tomato_septoria_leaf_spot": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Septoria leaf spot",
+      "ar": "تبقع سبتوريا"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Septoria lycopersici (fungus)",
+      "ar": "فطر سبتوريا ليكوبرسيسي"
+    },
+    "description": {
+      "en": "A fungal disease that spreads by splashing water and can defoliate plants, exposing fruit to sunscald.",
+      "ar": "مرض فطري ينتشر برذاذ الماء وقد يجرّد النباتات من أوراقها فتتعرض الثمار للسعفة الشمسية."
+    },
+    "symptoms": {
+      "en": [
+        "Many small round spots with gray-white centres and dark borders",
+        "Tiny black dots inside the spots",
+        "Starts on lower leaves and moves up"
+      ],
+      "ar": [
+        "بقع صغيرة دائرية كثيرة بمركز رمادي أبيض وحواف داكنة",
+        "نقاط سوداء دقيقة داخل البقع",
+        "تبدأ بالأوراق السفلية وتتجه لأعلى"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove infected lower leaves",
+        "Mulch to stop soil splash",
+        "Use a registered fungicide per the local label if spread continues"
+      ],
+      "ar": [
+        "أزل الأوراق السفلية المصابة",
+        "استخدم غطاء عضويًا لمنع رذاذ التربة",
+        "استخدم مبيدًا فطريًا مسجلًا حسب الملصق المحلي إذا استمر الانتشار"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Rotate crops (2-3 years)",
+        "Water at the base and avoid wetting leaves",
+        "Control weeds, especially nightshade relatives",
+        "Remove plant debris after harvest"
+      ],
+      "ar": [
+        "اتبع دورة زراعية (2-3 سنوات)",
+        "اسقِ عند القاعدة وتجنب بلل الأوراق",
+        "كافح الحشائش خاصة القريبة من العائلة الباذنجانية",
+        "أزل بقايا النباتات بعد الحصاد"
+      ]
+    }
+  },
+  "tomato_spider_mites": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Spider mites (two-spotted)",
+      "ar": "العنكبوت الأحمر (ذو البقعتين)"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Tetranychus urticae (mite pest, not a disease)",
+      "ar": "الحلم تترانيكس أورتيكي (آفة وليست مرضًا)"
+    },
+    "description": {
+      "en": "Tiny sap-sucking mites that explode in hot, dry, dusty conditions.",
+      "ar": "حلم دقيق يمتص العصارة وينفجر عدده في الجو الحار الجاف المغبر."
+    },
+    "symptoms": {
+      "en": [
+        "Fine yellow stippling on leaves",
+        "Fine webbing, mainly on the underside",
+        "Bronzed, dry leaves in heavy infestations"
+      ],
+      "ar": [
+        "تنقيط أصفر دقيق على الأوراق",
+        "نسيج عنكبوتي دقيق خاصة أسفل الورقة",
+        "برونزية وجفاف الأوراق عند الإصابة الشديدة"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Check leaf undersides with a hand lens",
+        "Spray plants with a strong jet of water to knock mites down",
+        "Use insecticidal soap, horticultural oil or a registered miticide per the local label",
+        "Avoid broad-spectrum insecticides that kill natural predators"
+      ],
+      "ar": [
+        "افحص أسفل الأوراق بعدسة مكبرة",
+        "ارشّ النباتات بتيار ماء قوي لإسقاط الحلم",
+        "استخدم صابونًا حشريًا أو زيتًا زراعيًا أو مبيد أكاروس مسجلًا حسب الملصق المحلي",
+        "تجنب المبيدات واسعة الطيف التي تقتل الأعداء الطبيعية"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Reduce dust and water stress",
+        "Scout weekly in hot, dry weather",
+        "Release or conserve predatory mites",
+        "Remove heavily infested leaves and nearby weeds"
+      ],
+      "ar": [
+        "قلّل الغبار وإجهاد الري",
+        "افحص أسبوعيًا في الطقس الحار الجاف",
+        "أطلق أو حافظ على الحلم المفترس",
+        "أزل الأوراق شديدة الإصابة والحشائش المجاورة"
+      ]
+    }
+  },
+  "tomato_target_spot": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Target spot",
+      "ar": "التبقع الهدفي"
+    },
+    "healthy": false,
+    "severity": "moderate",
+    "cause": {
+      "en": "Corynespora cassiicola (fungus)",
+      "ar": "فطر كورينسبورا كاسيكولا"
+    },
+    "description": {
+      "en": "A fungal disease favoured by warm, humid weather and dense foliage.",
+      "ar": "مرض فطري يفضّل الجو الدافئ الرطب والمجموع الخضري الكثيف."
+    },
+    "symptoms": {
+      "en": [
+        "Brown spots with concentric rings and a yellow halo",
+        "Spots merge into larger dead patches",
+        "Sunken spots on fruit"
+      ],
+      "ar": [
+        "بقع بنية بحلقات متداخلة وهالة صفراء",
+        "اندماج البقع في مناطق ميتة أكبر",
+        "بقع غائرة على الثمار"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove infected leaves",
+        "Improve airflow by pruning and spacing",
+        "Use a registered fungicide per the local label if needed"
+      ],
+      "ar": [
+        "أزل الأوراق المصابة",
+        "حسّن التهوية بالتقليم والمباعدة",
+        "استخدم مبيدًا فطريًا مسجلًا حسب الملصق المحلي عند الحاجة"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Rotate crops",
+        "Avoid overhead irrigation",
+        "Remove crop debris after harvest"
+      ],
+      "ar": [
+        "اتبع دورة زراعية",
+        "تجنب الري العلوي",
+        "أزل بقايا المحصول بعد الحصاد"
+      ]
+    }
+  },
+  "tomato_yellow_leaf_curl_virus": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Yellow leaf curl virus (TYLCV)",
+      "ar": "فيروس تجعد واصفرار الأوراق"
+    },
+    "healthy": false,
+    "severity": "very_high",
+    "cause": {
+      "en": "Virus spread by whiteflies (Bemisia tabaci)",
+      "ar": "فيروس تنقله الذبابة البيضاء"
+    },
+    "description": {
+      "en": "A viral disease with no cure. Infected plants stay stunted and give little fruit; whiteflies carry it from plant to plant.",
+      "ar": "مرض فيروسي لا علاج له. تبقى النباتات المصابة متقزمة وإنتاجها ضعيف، وتنقله الذبابة البيضاء من نبات لآخر."
+    },
+    "symptoms": {
+      "en": [
+        "Leaves curl upward and turn yellow at the margins",
+        "Stunted, bushy plants",
+        "Flowers drop and few fruits set"
+      ],
+      "ar": [
+        "التفاف الأوراق لأعلى واصفرار الحواف",
+        "نباتات متقزمة وشجيرية",
+        "تساقط الأزهار وقلة العقد"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove and destroy infected plants early to reduce the source of virus",
+        "Control whiteflies: yellow sticky traps, rotate registered insecticides per local advice",
+        "Remove weeds that host whiteflies"
+      ],
+      "ar": [
+        "أزل النباتات المصابة وأتلفها مبكرًا لتقليل مصدر الفيروس",
+        "كافح الذبابة البيضاء: مصائد لاصقة صفراء وتبديل المبيدات المسجلة حسب النصيحة المحلية",
+        "أزل الحشائش العائلة للذبابة البيضاء"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Plant resistant or tolerant varieties",
+        "Raise seedlings under insect-proof netting",
+        "Use reflective mulch and clean transplants",
+        "Keep the field and surroundings free of weeds and old crops"
+      ],
+      "ar": [
+        "ازرع أصنافًا مقاومة أو متحملة",
+        "أنتج الشتلات تحت شبك مانع للحشرات",
+        "استخدم غطاءً عاكسًا وشتلات نظيفة",
+        "حافظ على الحقل وما حوله خاليًا من الحشائش والمحاصيل القديمة"
+      ]
+    }
+  },
+  "tomato_mosaic_virus": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Mosaic virus",
+      "ar": "فيروس موزايك الطماطم"
+    },
+    "healthy": false,
+    "severity": "high",
+    "cause": {
+      "en": "Tomato mosaic virus (ToMV)",
+      "ar": "فيروس موزايك الطماطم"
+    },
+    "description": {
+      "en": "A very stable virus spread mechanically by hands, tools, plant contact and contaminated seed. There is no cure.",
+      "ar": "فيروس ثابت جدًا ينتقل ميكانيكيًا بالأيدي والأدوات وملامسة النباتات والبذور الملوثة، ولا علاج له."
+    },
+    "symptoms": {
+      "en": [
+        "Light and dark green mottling on leaves",
+        "Distorted, narrow or fern-like leaves",
+        "Stunted growth and uneven fruit ripening"
+      ],
+      "ar": [
+        "تبرقش أخضر فاتح وداكن على الأوراق",
+        "أوراق مشوهة أو ضيقة أو تشبه السرخس",
+        "تقزم ونضج غير منتظم للثمار"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "Remove and destroy infected plants",
+        "Wash hands with soap and disinfect tools between plants",
+        "Do not compost infected material"
+      ],
+      "ar": [
+        "أزل النباتات المصابة وأتلفها",
+        "اغسل اليدين بالصابون وعقّم الأدوات بين النباتات",
+        "لا تصنع سمادًا من المواد المصابة"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Use certified, virus-tested seed and resistant varieties",
+        "Wash hands (and avoid handling tobacco) before working with plants",
+        "Control weeds and clean greenhouse surfaces between crops"
+      ],
+      "ar": [
+        "استخدم بذورًا معتمدة مفحوصة وأصنافًا مقاومة",
+        "اغسل يديك (وتجنب لمس التبغ) قبل العمل مع النباتات",
+        "كافح الحشائش ونظّف أسطح البيت المحمي بين المحاصيل"
+      ]
+    }
+  },
+  "tomato_healthy": {
+    "plant": {
+      "en": "Tomato",
+      "ar": "طماطم"
+    },
+    "disease": {
+      "en": "Healthy",
+      "ar": "سليمة"
+    },
+    "healthy": true,
+    "severity": "none",
+    "cause": {
+      "en": "-",
+      "ar": "-"
+    },
+    "description": {
+      "en": "No disease signs detected on this leaf.",
+      "ar": "لا توجد علامات مرض ظاهرة على هذه الورقة."
+    },
+    "symptoms": {
+      "en": [
+        "Even green colour, no spots or curling"
+      ],
+      "ar": [
+        "لون أخضر متجانس بدون بقع أو التفاف"
+      ]
+    },
+    "treatment": {
+      "en": [
+        "No treatment needed"
+      ],
+      "ar": [
+        "لا حاجة لعلاج"
+      ]
+    },
+    "prevention": {
+      "en": [
+        "Keep regular irrigation and balanced fertilisation",
+        "Scout the plants weekly (undersides of leaves too)",
+        "Remove fallen or damaged leaves"
+      ],
+      "ar": [
+        "حافظ على ري منتظم وتسميد متوازن",
+        "افحص النباتات أسبوعيًا (وأسفل الأوراق أيضًا)",
+        "أزل الأوراق الساقطة أو التالفة"
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ml-env/
+.git
+.gitignore
+.vscode
+data/raw/
+data/processed/*.csv
+notebooks/
+reports/figures/
+*.log

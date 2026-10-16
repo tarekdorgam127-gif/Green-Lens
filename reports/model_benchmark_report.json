@@ -1,0 +1,52 @@
+{
+    "model_architecture": "ResNet-18",
+    "num_classes": 15,
+    "total_parameters": 11184207,
+    "trainable_parameters": 11184207,
+    "model_file_size_mb": 42.74,
+    "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "gpu_benchmarks": [
+        {
+            "batch_size": 1,
+            "mean_ms": 1.53,
+            "std_ms": 0.007,
+            "median_p50_ms": 1.528,
+            "p95_ms": 1.543,
+            "p99_ms": 1.548,
+            "per_sample_mean_ms": 1.53,
+            "throughput_fps": 653.5
+        },
+        {
+            "batch_size": 8,
+            "mean_ms": 5.469,
+            "std_ms": 0.015,
+            "median_p50_ms": 5.467,
+            "p95_ms": 5.494,
+            "p99_ms": 5.543,
+            "per_sample_mean_ms": 0.684,
+            "throughput_fps": 1462.8
+        },
+        {
+            "batch_size": 32,
+            "mean_ms": 21.5,
+            "std_ms": 0.018,
+            "median_p50_ms": 21.499,
+            "p95_ms": 21.53,
+            "p99_ms": 21.548,
+            "per_sample_mean_ms": 0.672,
+            "throughput_fps": 1488.4
+        }
+    ],
+    "cpu_benchmark": {
+        "batch_size": 1,
+        "mean_ms": 16.244,
+        "median_p50_ms": 16.215,
+        "p95_ms": 16.494,
+        "throughput_fps": 61.6
+    },
+    "best_epoch": 6,
+    "best_macro_f1": 0.9958092284834363,
+    "best_balanced_acc": 0.9957151983270539,
+    "best_val_acc": 0.995635305528613,
+    "best_val_loss": 0.011349411593023172
+}
