@@ -352,8 +352,8 @@ greenlens/
 
 ### 1. Clone & Setup Environment
 ```bash
-git clone https://github.com/your-username/Green-Lens.git
-cd greenlens
+git clone https://github.com/tarekdorgam127-gif/Green-Lens.git
+cd Green-Lens
 
 # Create virtual environment
 python3 -m venv env
@@ -392,7 +392,7 @@ docker run -p 8501:8501 greenlens:latest
 
 ---
 
-## 📜 Authors & Acknowledgments
+## Authors & Acknowledgments
 - **Project:** GreenLens Plant Disease Diagnostics
 - **Dataset:** PlantVillage Dataset (David Hughes, Marcel Salathé)
 - **Core Architecture:** PyTorch ResNet-18 Transfer Learning
